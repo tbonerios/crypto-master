@@ -1,0 +1,514 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+label {
+    color: #FFF;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.body-wrapper {
+    background-image: url("../images/bitcoin-background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: top right;
+    width: 100%;
+}
+
+.container-table {
+    height: 100%;
+    display: table;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.btn-light {
+    color: #fff;
+    background-color: #31aa39;
+    border-color: #31aa39;
+}
+
+.btn-link {
+    color: #fff;
+    background-color: #1c3947;
+    border-radius: 30px;
+}
+
+.btn:focus,
+.btn:active {
+    outline: none !important;
+}
+
+.btn-round {
+    border-radius: 30px;
+}
+
+#title {
+    margin: 50 50 50 50px;
+    color: #FFF;
+    float: center;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.card.card-register {
+    border-radius: 8px;
+    color: #fff;
+    max-width: 350px;
+    margin: 20px 0 70px;
+    min-height: 400px;
+    padding: 30px;
+}
+
+.register-form .form-control {
+    border: 1px solid transparent !important;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.card {
+    width: 30rem;
+    display: table;
+}
+
+.forgot {
+    text-align: center;
+    color: #FFF;
+}
+
+.page-background {
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    max-height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+#bodyHolder {}
+
+#menu-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 63px;
+    margin-right: 30px;
+}
+
+#add-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: -65px;
+    margin-left: 40px;
+}
+
+#chart-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 200px;
+    float: right;
+}
+
+#nav {
+    background-image: url("../images/bitcoin-background-with-bar.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 50px;
+    border-bottom: 4px solid #CCCACC;
+    background-color: #4AA956;
+    opacity: 100%;
+    position: relative;
+    height: 234px;
+}
+
+.register-form {
+    margin: 5px 0px 10px 0px;
+}
+
+.form-control {
+    margin: 5px 0px 5px 0px;
+}
+
+.backImgHolder {
+    border-bottom: 60px solid #31aa39;
+    height: 230px;
+}
+
+#nav h1 {
+    width: 25%;
+    margin: 0 0 0 20px;
+    color: #FFF;
+    padding-top: 70px;
+    float: left;
+
+}
+
+#nav #title {
+    font-size: 60px;
+    letter-spacing: 3px;
+}
+
+#button {
+    background-color: none;
+}
+
+.plus {
+    float: left;
+}
+
+.menu {
+    float: right;
+}
+
+.currencies {
+    clear:right;
+}
+
+#currencyHolder {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#currencyHolder {
+    margin-top: 50px;
+}
+
+
+
+#currencyHolder p {
+  margin: 10px 0 10px 0;
+  padding: 0;
+  font-size: 1.3em;
+}
+
+
+
+.currencyData {
+    clear: both;
+    display: block;
+    margin: 20px 0 30px 10px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    /*border-top: 1px solid #d3d3d3;*/
+}
+
+.currencyTitle {
+    float: left;
+    width: 100%;
+}
+
+.currencyTitle img {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-right: 100px
+}
+
+.currencyTitle h2 {
+    font-size: 1.4em;
+    display: inline;
+    /*margin-left: 6px;*/
+}
+
+.currencyTitle p {
+    font-size: .8em;
+    margin-left: 37px;
+    margin-bottom: 0;
+}
+
+.last_price {
+   /* margin-left: 37px;*/
+    margin-top: 0;
+}
+
+.dataHolder {
+   /* float: right;*/
+}
+
+.dataHolder span {
+/*    float: right;
+*/    margin-right: 20px;
+    font-size: 1.4em;
+}
+
+.card .card-register {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    align-content: center;
+}
+
+.low {
+    padding: 6px;
+    vertical-align: middle;
+   /* border-top: 0;*/
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+.high {
+    padding: 6px;
+    vertical-align: middle;
+   /* border-top: 0;*/
+   /* border-bottom: 1px solid #ddd;*/
+}
+
+.vol {
+    padding: 6px;
+    vertical-align: middle;
+   /* border-top: 0;*/
+   /* border-bottom: 1px solid #ddd;*/
+}
+
+
+.chg {
+    padding: 6px;
+    vertical-align: middle;
+   /* border-top: 0;*/
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+.percChg {
+    padding: 6px;
+    vertical-align: middle;
+    /*border-top: 0;*/
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+#rowTint {
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
+.table {
+  margin-top: 60px;
+}
+
+.tableResponsive {
+    min-height: .01%;
+    padding: 0 60px 0 60px;
+
+}
+
+text-center {
+text-align: none;
+
+}
+
+text-right {
+text-align: none;
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-4.offset-md-4.col-sm-6.offset-sm-3.col-10.offset-1 {
+        margin-left: 35%;
+    }
+
+}
+
+@media screen and (min-width: 1006px) {
+    .col-md-4.offset-md-4.col-sm-6.offset-sm-3.col-10.offset-1 {
+        margin-left: 35%;
+    }
+}
+
+.articleHolder {
+  width: 90%;
+  margin: 0;
+  clear: both;
+  border-bottom: 1px solid #d3d3d3;
+  padding-bottom: 10px;
+}
+
+.articleImg {
+  float: left;
+  width: 20%;
+  height: 16%;
+  margin: 0 10px 10px 0;
+}
+
+.pubDate {
+  font-size: .8em;
+}
+
+.newsUrl {
+  display: block;
+  clear: both;
+  font-size: .8em;
+}
+
+#currencyHolder {
+  width: 45%;
+  float: left;
+  margin: 0 2%;
+}
+
+#chartHolder {
+  width: 45%;
+  float: left;
+  margin: 0 2%;
+}
+
+@media screen and (max-width: 480px) {
+
+  h3 {
+    display: inline;
+  }
+
+  .minHide, .low, .high, .vol, .chg {
+    display: none;
+  }
+
+  thead {
+    display: none;
+  }
+
+  #nav #title {
+    font-size: 40px;
+    letter-spacing: 3px;
+
+  }
+
+  .articleImg {
+    width: 100%;
+
+  }
+
+
+
+}
+.currencyTitle p {
+    font-size: .8em;
+    margin-left: 0px;
+    margin-bottom: 0;
+}
+
+.currencyTitle img {
+    width: 55px;
+    height: 55px;
+    float: left;
+  /*  margin-right: 100px*/
+    margin-bottom: 15px
+}
+}
+
+#menuModal .modal-dialog {
+    width: 250px;
+}
+
+#chartModal .modal-dialog {
+    width: 400px;
+
+}
+
+
+.modal-header {
+    padding: 30px;
+}
+
+.modal-title {
+    color: #31aa39;
+    font-kerning: 2px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.modal-body {
+    text-align: center;
+    padding: 30px;
+}
+
+.modal-link {
+    color: #66615b;
+    font-kerning: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.jumbotron {
+    margin-top: 30px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    min-height: 100%;
+    overflow-y: auto;
+}
+
+.jumbotron-currency {
+  background-color: #f9f9f9;
+  width: 90%;
+  margin: 40px auto;
+  border-radius: 15px;
+  padding: 30px;
+
+  overflow-y: auto;
+}
+
+#login-successful {
+    font-size: 12px;
+    color: #aaaaaa;
+}
+
+#createANewTrade {
+    color: #31aa39;
+}
+
+th.test {
+    padding-right: 50px;
+}
+
+.editable {
+    width: 75px;
+}
+
+#newsHolder {
+  width: 45%;
+  display: inline-block;
+  clear: both;
+  float: left;
+  margin: 0 2%;
+
+}
+
+#newsHolder h2 {
+
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+#twitterHolder {
+  width: 45%;
+  float: left;
+  margin: 0 2%;
+}
+
+#twitterHolder h2 {
+  width: 100%;
+  border-bottom: 1px solid #d3d3d3;
+
+}
+
+.tweetHolder {
+  margin: 30px 2%;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.tweetHolder .date {
+  font-size: .8em;
+}
+
+.tweetHolder .text {
+  font-size: 1.1em;
+}
